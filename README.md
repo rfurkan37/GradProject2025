@@ -40,7 +40,7 @@ To set up the project, follow these steps:
     cd your-repo-name
     ```
 
-2. Create a virtual environment and activate it:
+2. Create a virtual environment and activate it:        
     ```sh
     python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
