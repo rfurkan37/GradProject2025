@@ -1,0 +1,9 @@
+Experiment                    , Model, Status   , Best Params                                                    , Val RMSE          , Val MAE           , Val R2            , Test RMSE         , Test MAE          , Test R2
+SOH_Prediction_FixedSplit_Run3, RF   , Completed, "{'max_depth': 25, 'min_samples_split': 5, 'n_estimators': 50}", 2.211707520849209 , 1.3993209829826885, 0.8994901100114333, 1.937119770836624 , 1.3858054752026114, 0.930574951470905
+SOH_Prediction_FixedSplit_Run3, GB   , Completed, "{'learning_rate': 0.1, 'max_depth': 5, 'max_iter': 250}"      , 2.027958301750866 , 1.4627801667527809, 0.9154971318099248, 1.7382990393690374, 1.3518028217415021, 0.9440947974953654
+SOH_Prediction_FixedSplit_Run3, XGB  , Completed, "{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 150}"  , 1.765754968002807 , 1.3825992809661412, 0.9359359660236232, 1.707053447848405 , 1.3794907931061215, 0.9460865054404317
+SOH_Prediction_FixedSplit_Run3, LR   , Completed, {'fit_intercept': True}                                        , 2.7838494341517133, 0.5192540806312016, 0.8407626677047119, 1.555548729046877 , 0.5012676043951816, 0.955231712142137
+
+
+// Data split: Train batteries=16, Val batteries=2, Test batteries=5
+random seed 2024

@@ -1,0 +1,9 @@
+Experiment                    , Model, Status   , Best Params                                                      , Val RMSE          , Val MAE            , Val R2            , Test RMSE         , Test MAE          , Test R2
+SOH_Prediction_FixedSplit_Run1, RF   , Completed, "{'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 100}", 1.6594513159825681, 1.213415731213427  , 0.9491789285192019, 1.8074235051862708, 1.330056701755444 , 0.9380152201725834
+SOH_Prediction_FixedSplit_Run1, GB   , Completed, "{'learning_rate': 0.05, 'max_depth': 5, 'max_iter': 150}"       , 1.6650979489175035, 1.2199388141908336 , 0.9488324812716172, 1.8467346328415157, 1.4654587049340262, 0.9352895829529532
+SOH_Prediction_FixedSplit_Run1, XGB  , Completed, "{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100}"    , 1.5882462333858993, 1.202932518360859  , 0.9534467019724802, 1.8391278850923725, 1.499987587638681 , 0.9358215728170555
+SOH_Prediction_FixedSplit_Run1, LR   , Completed, {'fit_intercept': True}                                          , 0.7361206935801836, 0.44864861040387816, 0.9899997043713582, 1.0907477537914192, 0.4954640802654373, 0.97742572217187
+
+3 test batteries
+2 validation batteries
+42 random seeds
